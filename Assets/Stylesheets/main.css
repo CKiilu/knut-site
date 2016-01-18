@@ -57,6 +57,8 @@ h2{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*Top of page*/
+
 /*Animate pictures*/
 @keyframes slideshow{
     0%{background-image: url(http://www.knut.or.ke/modules/mod_image_show_gk4/cache/DSC01859gk-is-93.JPG);}
@@ -72,4 +74,28 @@ h2{
     background-repeat: no-repeat;
     position: relative;
     z-index: 1000;
+}
+/*Header and logo positioning and sizing*/
+#head{
+    background-color: #a52a2a ;
+    height: 150px;
+    width: 93.5%;
+    margin: 0 auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#logo{
+    opacity: .9;
+    display: block;
+}
+/*Text on top of slideshow*/
+.txt{
+    opacity: 0.05;
+    border-radius: 15px;
+    color: white;
+}
+.txt:hover{
+    z-index: 1001;
+    background-color: gray;
+    opacity: .75;
 }
