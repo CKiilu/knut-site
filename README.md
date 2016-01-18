@@ -1,2 +1,2 @@
 # knut-site
-Redesign of the Kenya Natinoal Teachers Union website
+Redesign of the Kenya National Teachers Union website
