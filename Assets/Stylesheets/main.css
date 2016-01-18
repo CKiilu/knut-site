@@ -99,3 +99,21 @@ h2{
     background-color: gray;
     opacity: .75;
 }
+/*Footer*/
+#foot{
+    color:#a52a2a;
+    background: #4b6b3b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+#links{
+    background-color: #4a4948;
+}
+#links li{
+    background-color: #4a4948;
+    color: #fff;
+}
+#links h6{
+    color: #fff;
+}
