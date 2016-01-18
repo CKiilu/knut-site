@@ -43,7 +43,10 @@ font-family: 'Lobster', cursive;
 =================================*/
 @import url(https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Lobster);
 
-body{
+p{
+    font-family: 'Lobster', cursive;
+}
+#news .column p{
     font-family: 'Lobster', cursive;
 }
 
@@ -54,3 +57,19 @@ h2{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*Animate pictures*/
+@keyframes slideshow{
+    0%{background-image: url(http://www.knut.or.ke/modules/mod_image_show_gk4/cache/DSC01859gk-is-93.JPG);}
+    25%{background-image: url(http://www.knut.or.ke/modules/mod_image_show_gk4/cache/DSC01860gk-is-93.JPG);}
+    50%{background-image: url(http://www.knut.or.ke/modules/mod_image_show_gk4/cache/DSC02032gk-is-93.JPG);}
+    75%{background-image: url( http://www.knut.or.ke/modules/mod_image_show_gk4/cache/DSC02040gk-is-93.JPG);}
+    100%{background-image: url( http://www.knut.or.ke/modules/mod_image_show_gk4/cache/DSC02032gk-is-93.JPG);}
+}
+.slide{
+    animation: slideshow 10s ease-in-out infinite;
+    background-size: cover;
+    height: 430px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1000;
+}
