@@ -99,6 +99,10 @@ h2{
     background-color: gray;
     opacity: .75;
 }
+/*General body*/
+ a{
+    color: #a52a2a;
+}
 /*Footer*/
 #foot{
     color:#a52a2a;
