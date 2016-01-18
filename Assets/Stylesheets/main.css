@@ -112,6 +112,9 @@ h2{
 }
 #links li{
     background-color: #4a4948;
+    color: #a52a2a;
+}
+#links a{
     color: #fff;
 }
 #links h6{
